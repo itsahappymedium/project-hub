@@ -1,0 +1,10 @@
+{
+	"name": "project-hub",
+	"description": "A timeline for interactive projects.",
+	"version": "0.1.0",
+	"devDependencies": {
+		"grunt": "~0.4.2",
+		"grunt-rsync": "~0.2.1",
+		"load-grunt-tasks": "~0.2.1"
+	}
+}

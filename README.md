@@ -15,6 +15,12 @@ The benefits of using a project hub:
 - Keep clients and team members up to speed with design progress
 - Lives at a URL that doesn't change
 
+## Deployment
+
+Use the grunt `deploy` task to deploy the project hub to a remote server using rsync. Edit the preferences inside `Gruntfile.js` in the deploy task to match your remote server's settings. Then run:
+
+	$ grunt deploy:staging
+
 ## Resources
 - [Overview of project hubs on 24 Ways.](http://24ways.org/2013/project-hubs/)
 - [Jekyll version of project hubs](https://github.com/himedlooff/project-timeline)
